@@ -1,0 +1,10 @@
+print("Enter your name:")
+name = input()
+print("Enter your First name:")
+first_name = input()
+print("Enter your sexe:")
+sexe = input()
+print("Enter your age:")
+age = input()
+
+print("The person is called, " + name + " " + first_name + " is a sex person " + sexe + " his age is " + age)
