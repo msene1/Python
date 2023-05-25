@@ -22,8 +22,10 @@ def determiner_age(annee_naissance):
 
     if age < 0:
         return "Année de naissance invalide."
+        sys.exit()
     elif age <= 18:
         return "Malheureusement vous êtes mineure :("
+        
         
     elif age >= 18:
         return "Vous êtes un majeur."
